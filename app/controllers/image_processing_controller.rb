@@ -1,0 +1,2 @@
+class ImageProcessingController < ApplicationController
+end
