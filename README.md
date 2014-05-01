@@ -4,6 +4,7 @@ This project is for a PBL lecture course about cloud computing at the University
 
 ## Procedure log
     $ rails new myapp -d mysql
+    $ cd myapp
 Add ruby-opencv to Gemfile
 
     $ echo "gem 'ruby-opencv', \"~> 0.0.10\", :require => 'opencv'" >> Gemfile
