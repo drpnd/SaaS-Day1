@@ -7,30 +7,30 @@ This project is for a PBL lecture course about cloud computing at the University
 Add ruby-opencv to Gemfile
 
     $ echo "gem 'ruby-opencv', \"~> 0.0.10\", :require => 'opencv'" >> Gemfile
-
 Create database and edit config/database.yml
+
     $ mysql -u root -p
     mysql> grant all privileges on *.* to imgproc@localhost identified by ’<SPECPASS>';
     mysql> create database image_processing default charset utf8 collate utf8_general_ci;
     $ vi config/database.yml
-
 Edit config/initializers/secret_token.rb
+
     $ vi config/initializers/secret_token.rb
-
 Generate a controller for image processing
+
     $ rails generate controller ImageProcessing 
-
 Edit the controller
-    $ vi app/controllers/image_processing_controller.rb
 
+    $ vi app/controllers/image_processing_controller.rb
 Edit the view of front page and the layout
+
     $ vi app/views/default.html.erb
     $ vi app/layouts/application.html.erb
-
 Add "haarcascade_frontalface_alt.xml"
-    $ cp /opt/local/share/OpenCV/haarcascades/haarcascade_frontalface_alt.xm ./haarcascade_frontalface_alt.xml
 
+    $ cp /opt/local/share/OpenCV/haarcascades/haarcascade_frontalface_alt.xm ./haarcascade_frontalface_alt.xml
 Edit the routes
+
     $ vi config/routes.rb
 
 ## Appendix
