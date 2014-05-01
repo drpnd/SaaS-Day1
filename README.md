@@ -11,7 +11,8 @@ This project is for a PBL lecture course about cloud computing at the University
 ### Install RVM (See: http://rvm.io/rvm/install)
     $ curl -L https://get.rvm.io | bash -s stable
     $ source ~/.rvm/scripts/rvm
-    * add "source ~/.rvm/scripts/rvm" to "~/.bashrc"
+    $ edit ~/.bashrc
+    (add "source ~/.rvm/scripts/rvm" to "~/.bashrc")
     $ rvm requirements
 
     $ rvm install ruby
@@ -23,7 +24,7 @@ This project is for a PBL lecture course about cloud computing at the University
 ### Install Open CV
     $ sudo apt-get install cmake build-essential
 
-    * Download a up-to-date package from http://opencv.org
+    (Download a up-to-date package, opencv-x.x.x.zip, from http://opencv.org)
     $ unzip opencv-x.x.x.zip
     $ cd opencv-x.x.x
     $ mkdir release
