@@ -35,7 +35,8 @@ Edit the routes
     $ vi config/routes.rb
 
 ## Appendix
-### Install RVM (See: http://rvm.io/rvm/install)
+### Install RVM
+(See: http://rvm.io/rvm/install)
     $ curl -L https://get.rvm.io | bash -s stable
     $ source ~/.rvm/scripts/rvm
     $ edit ~/.bashrc
@@ -49,6 +50,7 @@ Edit the routes
     $ gem install bundler
 
 ### Install Open CV
+(See: http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html)
     $ sudo apt-get install cmake build-essential
 
     (Download a up-to-date package, opencv-x.x.x.zip, from http://opencv.org)
