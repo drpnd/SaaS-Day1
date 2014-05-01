@@ -37,6 +37,7 @@ Edit the routes
 ## Appendix
 ### Install RVM
 (See: http://rvm.io/rvm/install)
+
     $ curl -L https://get.rvm.io | bash -s stable
     $ source ~/.rvm/scripts/rvm
     $ edit ~/.bashrc
@@ -51,6 +52,7 @@ Edit the routes
 
 ### Install Open CV
 (See: http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html)
+
     $ sudo apt-get install cmake build-essential
 
     (Download a up-to-date package, opencv-x.x.x.zip, from http://opencv.org)
