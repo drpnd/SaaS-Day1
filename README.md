@@ -33,6 +33,9 @@ Add "haarcascade_frontalface_alt.xml"
 Edit the routes
 
     $ vi config/routes.rb
+Generate SECRET_TOKEN
+
+    $ rake secret
 
 ## Appendix
 ### Install RVM
