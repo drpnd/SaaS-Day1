@@ -36,6 +36,9 @@ Edit the routes
 Generate SECRET_TOKEN
 
     $ rake secret
+Run rails server
+
+    $ RAILS_ENV=production MYAPP_DATABASE_PASSWORD="<PASSWORD>" SECRET_TOKEN="<GENERATED_SECRET_TOKEN>" bundle exec rails server
 
 ## Appendix
 ### Install RVM
